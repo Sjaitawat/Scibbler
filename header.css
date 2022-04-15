@@ -1,0 +1,42 @@
+.logo-title{
+    font-family: "Satisfy", "cursive";
+    float: left;
+    font-size: 30px;
+    color: blue;
+    
+   
+
+}
+
+.middleText{
+    font-family: "Marck Script", "cursive";
+    font-size: 12px;
+    
+
+}
+
+.topButtons{
+    float: right;
+    margin: 5px;
+    padding: 5px;
+    background-color: blue;
+    color: white;
+}
+
+.header{
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+#sub1{
+    background-color: #228B22;
+    color: white;
+    text-align: center;
+    position: relative;
+    width: 100%;
+    padding: 15px;
+    top: 5px;
+    left: 50%;
+    transform: translate(-50%);
+    cursor: pointer;
+  }

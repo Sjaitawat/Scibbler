@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Marck+Script&family=Satisfy&display=swap');
+body{
+    background-image: url('../images/background.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    position: center center;
+    margin: 0;
+    background-size: 100% ;
+}
+
+  #sub2{
+    background-color: #228B22;
+    color: white;
+    text-align: center;
+    position: relative;
+    padding: 15px;
+    top: 5px;
+    left: 50%;
+    transform: translate(-50%);
+    cursor: pointer;
+  }
+
+
+  #nm
+  {
+      color: black;
+  }
+  #redirect
+  {
+    color: dodgerblue;
+    cursor: pointer;
+  }
+  .centerb{
+position:absolute;
+top: 50%;
+left: 50%;
+margin-left: -100px;
+  }

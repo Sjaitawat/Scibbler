@@ -1,11 +1,10 @@
-html{
-    background-color: orange;}
-
-    
+#container{
+    background-color: orange; 
+}  
 .post {
     position: relative;
     width: 45%;
-    height: 20%;
+    height: auto;
     background: #fff;
     box-shadow:0 4px 10px 0 rgba(17, 4, 63, 0.2),0 4px 20px 0 rgba(79, 19, 97, 0.19);
     margin: 10px 10px 10px 20px;
@@ -13,7 +12,7 @@ html{
     border-radius: 15px;
 }
     
-.post-left {
+.left {
         width: 15%;            
         max-width: 15%;
         display: table-cell;
@@ -30,7 +29,8 @@ html{
         color: #000000;
         border-radius: 0 15px 15px 0;
         padding: 0 20px; 
-        overflow: hidden;     
+        overflow: hidden;   
+        height: auto;  
 }
 .post-title{
     font-family: 'Itim', cursive;
@@ -40,11 +40,11 @@ html{
     height: 25px;
     }
 
-.post-desc{
+.post-text{
     height: 100px;
     margin-bottom: 0 !important;
     overflow: hidden;
-    text-overflow: clip;
+    
 
 }
 
@@ -86,8 +86,7 @@ body {
 }
 #five{
     left: 25%;
-    /* align-items: center; */
-    /* justify-content: center; */
+
  }
  #bars{
     position:absolute;
@@ -119,4 +118,41 @@ body {
 }
 #dots{
     float:right;
+}
+
+
+@media only screen and (max-width:1195px) {
+    
+    .post-text{
+        margin-top: 80px;
+    }
+}
+
+@media only screen and (max-width:910px){
+    .post-text{
+        margin-top: 130px;
+    }
+}
+@media only screen and (max-width:1000px){
+    .post{
+        width: 40%;
+    }
+}
+
+@media only screen and (max-width:814px){
+    .post-text{
+        margin-top: 160px;
+    }
+}
+
+@media only screen and (max-width:687px){
+    .post-text{
+        margin-top: 200px;
+    }
+}
+
+@media only screen and (max-width:595px){
+    .post-text{
+        display: none;
+    }
 }

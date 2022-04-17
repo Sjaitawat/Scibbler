@@ -83,26 +83,28 @@
               </div>
             </div>
           </div>
-
+ <!-- Logo of the page -->
     <p id="pageTitle" class="logo-title">ScriBBler</p><br><br><br>
     <p class="middleText">Explore, Imagine, Create</p>
 </div> 
+ <!-- Title -->
 <div class="area">
   <div class="editTitle">
-      <h2 id="theTitle">The legacy of Jimi Hendrix</h2>
-      <textarea id="titlearea" style="display: none; width: 400px; margin-left: 30%;"></textarea>
+      <h2 id="Title">The legacy of Jimi Hendrix</h2>
+      <textarea id="titlespace" style="display: none; width: 400px; margin-left: 30%;"></textarea>
   </div>
 </div>
-<div class="userEdit">
+ 
+<div class="Edit">
   <div class="uname">
       <h4 style="font-family: 'Square Peg', cursive;">Jimi</h4>
   </div>
+   <!-- edit and save button-->
   <div class="editSave">
-      <button class="sj" id="sj" onclick="edit()">Edit <span class="material-icons">
-        edit
-        </span> <i class="fa fa-edit"></i></button>
+      <button class="sj" id="sj" onclick="edit()">Edit <span class="material-icons">edit</span> <i class="fa fa-edit"></i></button>
   </div>
 </div>
+ <!--content-->
 <div class="inputText">
   <div class="para">
       <p id="blogtext" style="display: block;">
@@ -112,12 +114,14 @@
   
   <textarea  class="Text1" id="textreadonly" ></textarea>
 </div>
+ <!-- Like button and respective information-->
 <div class="likeBlogButton">    
   <button  class="likeBlog"  id= "likeBlog" onclick="postLiked()"><i class="fa fa-thumbs-up" aria-hidden="true"></i> <span class="material-icons">
     thumb_up
     </span>Like</button><br>
   <span id="commentCount">Be the first one to like this!</span>
 </div>
+ <!-- comment section and respective information -->
 <textarea placeholder="Add your comments" id="userComments" ></textarea><br>
 <button class="likeBlog" id="liked" onclick="addComments(userComments)">Comment</button>
 <div class="commentSection">

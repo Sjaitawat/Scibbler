@@ -15,11 +15,11 @@ font-family: 'Yellowtail', cursive;*/
     margin-top: 150px;
 }
 
-#theTitle{
+#Title{
     text-align: center;
 }
 
-.userEdit{
+.Edit{
     display: flex;
     justify-content: space-between;
     margin-top: 40px;

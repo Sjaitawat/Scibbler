@@ -25,23 +25,23 @@ function edit(){
         document.getElementById("textreadonly").style.display="block"; 
         document.getElementById("textreadonly").innerHTML = b;
         document.getElementById("blogtext").style.display= "none";
-        var d = document.getElementById('theTitle').innerHTML;
-        document.getElementById('titlearea').innerHTML = d;
-        document.getElementById('theTitle').style.display = "none";
-        document.getElementById('titlearea').style.display = "block";
+        var d = document.getElementById('Title').innerHTML;
+        document.getElementById('titlespace').innerHTML = d;
+        document.getElementById('Title').style.display = "none";
+        document.getElementById('titlespace').style.display = "block";
         editbtn = 1;
     }
     else{
         
         var c = document.getElementById('textreadonly').value;
         document.getElementById('blogtext').innerHTML = c;
-        document.getElementById("sj").innerHTML = 'Edit <i class="fa fa-edit"></i>';
+        document.getElementById("sj").innerHTML = 'Edit <span class="material-icons">edit </span> <i class="fa fa-edit"></i>';
         document.getElementById('textreadonly').style.display="none";
         document.getElementById('blogtext').style.display = "block";
-        var a = document.getElementById('titlearea').value;
-        document.getElementById('theTitle').innerHTML = a;
-        document.getElementById('theTitle').style.display = "block";
-        document.getElementById('titlearea').style.display = 'none';
+        var a = document.getElementById('titlespace').value;
+        document.getElementById('Title').innerHTML = a;
+        document.getElementById('Title').style.display = "block";
+        document.getElementById('titlespace').style.display = 'none';
         editbtn = 0;
     }
         

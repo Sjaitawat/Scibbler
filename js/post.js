@@ -7,7 +7,7 @@ function addComments(id){
 //Enter your code here
 var like = 0;
 function postLiked(){
-    document.getElementById("likeBlog").innerHTML='<i class="fa fa-thumbs-up" aria-hidden="true"></i> <span class="material-icons"margin-top="10px"> thumb_up</span>Liked!';
+    document.getElementById("likeBlog").innerHTML='<i class="fa fa-thumbs-up" aria-hidden="true"></i> Liked!';
     like = like+1;
     if(like == 1){
         document.getElementById("commentCount").innerHTML=1 + " person likes this!";
@@ -20,7 +20,7 @@ function postLiked(){
 var editbtn = 0;
 function edit(){
     if(editbtn==0){
-        document.getElementById("es").innerHTML = 'Save <span class="material-icons"> save</span><i class="fa fa-floppy-o" aria-hidden="true"></i>';
+        document.getElementById("sj").innerHTML = 'Save <i class="fa fa-floppy-o" aria-hidden="true"></i>';
         var b = document.getElementById("blogtext").innerHTML;
         document.getElementById("textreadonly").style.display="block"; 
         document.getElementById("textreadonly").innerHTML = b;
@@ -35,7 +35,7 @@ function edit(){
         
         var c = document.getElementById('textreadonly').value;
         document.getElementById('blogtext').innerHTML = c;
-        document.getElementById("es").innerHTML = 'Edit <i class="fa fa-edit"></i>';
+        document.getElementById("sj").innerHTML = 'Edit <i class="fa fa-edit"></i>';
         document.getElementById('textreadonly').style.display="none";
         document.getElementById('blogtext').style.display = "block";
         var a = document.getElementById('titlearea').value;

@@ -7,7 +7,7 @@ function addComments(id){
 //Enter your code here
 var like = 0;
 function postLiked(){
-    document.getElementById("likeBlog").innerHTML='<i class="fa fa-thumbs-up" aria-hidden="true"></i> Liked!';
+    document.getElementById("likeBlog").innerHTML='<i class="fa fa-thumbs-up" aria-hidden="true"></i> <span class="material-icons"> thumb_up</span>Liked!';
     like = like+1;
     if(like == 1){
         document.getElementById("commentCount").innerHTML=1 + " person likes this!";
